@@ -1,15 +1,3 @@
-blib/arch/.exists
-blib/arch/auto/Audio/File/Wma/.exists
-blib/bin/.exists
-blib/lib/Audio/File/.exists
-blib/lib/Audio/File/Wma.pm
-blib/lib/Audio/File/Wma/AudioProperties.pm
-blib/lib/Audio/File/Wma/Tag.pm
-blib/lib/auto/Audio/File/Wma/.exists
-blib/man1/.exists
-blib/man3/.exists
-blib/man3/Audio::File::Wma.3
-blib/script/.exists
 Changes
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
@@ -25,8 +13,6 @@ lib/Audio/File/Wma/Tag.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
-pm_to_blib
 README
 t/01_test.t
-t/Audio-File.t
 t/test.wma

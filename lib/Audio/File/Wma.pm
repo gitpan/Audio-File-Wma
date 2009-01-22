@@ -6,7 +6,7 @@ use base qw( Audio::File::Type );
 use Audio::File::Wma::Tag;
 use Audio::File::Wma::AudioProperties;
 
-our $VERSION = '0.01';
+our $VERSION = '0.01a';
 
 =head1 NAME
 

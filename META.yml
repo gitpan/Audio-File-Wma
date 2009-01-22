@@ -18,4 +18,4 @@ requires:
   Audio::WMA: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.01a

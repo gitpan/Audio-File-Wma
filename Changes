@@ -2,3 +2,5 @@ Revision history for Perl extension Audio::File::Wma
 
 0.01  Thu Jan 22 2009
     - Initial release;
+0.01a Thu jan 22 2009
+    - Fixed silly errors in test file;

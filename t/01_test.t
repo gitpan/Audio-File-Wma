@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use Test::More tests => 7;
+use Test::More tests => 17;
 
 BEGIN { use_ok('Audio::File'); }
 
@@ -8,8 +8,8 @@ my $tags = {
     # I didn't have a WMA editor handy, but the file has some
     #   blank information (as opposed to undef) that we can test.
     Wma => {
-        'track' => undef,
-        'total' => undef,
+        'track' => 0,
+        'total' => 0,
         'genre' => undef,
         'artist' => '',
         'album' => undef,
@@ -21,8 +21,8 @@ my $tags = {
 
 my $audio_properties = {
 	Wma		=> {
-		length		=> 65.391,
-		bitrate		=> 129084.552920127,
+		length		=> 65,
+		bitrate		=> 129084,
 		sample_rate	=> 44100,
 		channels	=> 2,
 	}
