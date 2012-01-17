@@ -3,10 +3,11 @@ package Audio::File::Wma;
 use strict;
 use warnings;
 use base qw( Audio::File::Type );
+use 5.8.8;
 use Audio::File::Wma::Tag;
 use Audio::File::Wma::AudioProperties;
 
-our $VERSION = '0.01a';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -17,6 +18,10 @@ Audio::File::Wma - represents a WMA/ASF audio file
 An extension to Audio::File enabling support for WMA/ASF files.
 
 Uses Audio::WMA internally to parse necessary information from the file.
+
+=head1 INSTALLATION ISSUES
+
+As of version v1.0 of L<Ogg::Vorbis::Header::PurePerl>, there are test failures that will prevent L<Audio::File> from installing without --force. There is a patch attached to the bugreport here, but I have not tested it: L<https://rt.cpan.org/Public/Bug/Display.html?id=43693>
 
 =head1 SEE ALSO
 

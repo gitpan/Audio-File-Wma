@@ -5,11 +5,10 @@ use warnings;
 use base qw( Audio::File::AudioProperties );
 use Audio::WMA;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub init {
 	my $self = shift;
-$Audio::WMA::DEBUG = 1;
 	$self->{wma} = Audio::WMA->new( $self->{filename} ) or return;
     my $info = $self->{wma}->info;
 
